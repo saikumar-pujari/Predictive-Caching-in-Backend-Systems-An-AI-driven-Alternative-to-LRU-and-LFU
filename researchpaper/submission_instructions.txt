@@ -1,0 +1,19 @@
+Submission instructions
+
+1) Primary submission file:
+   - Submit `paper.pdf` (if you have a formatted PDF). If you only have Markdown, submit `paper.md`.
+
+2) Supplementary materials (single zip):
+   - Create a zip/bundle containing the code, simulation scripts, results images, and tests. Use `build_submission.py` in this folder to create `submission_bundle.zip`.
+
+3) What reviewers will see:
+   - The PDF/Markdown shows the writeup and figures.
+   - The zip contains runnable code and results so reviewers can reproduce simulations.
+
+4) How to reproduce locally:
+   - Run `python simulate_cache.py` to produce `sim_results.svg`.
+   - Run `python run_simulations.py` to run quick aggregated trials.
+   - Run `python -m unittest discover -s tests` to run unit tests.
+
+5) Notes:
+   - The demo predictor is a simple heuristic. If you replace it with an LSTM, include the training script and a small model checkpoint.

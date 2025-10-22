@@ -1,0 +1,20 @@
+{
+  "lru": {
+    "hit_mean": 0.5991,
+    "hit_std": 0.0,
+    "lat_mean": 35.0675,
+    "lat_std": 0.0
+  },
+  "lfu": {
+    "hit_mean": 0.6409,
+    "hit_std": 0.0,
+    "lat_mean": 31.932499999999997,
+    "lat_std": 0.0
+  },
+  "pred": {
+    "hit_mean": 0.5975,
+    "hit_std": 0.0,
+    "lat_mean": 35.18749999999999,
+    "lat_std": 0.0
+  }
+}

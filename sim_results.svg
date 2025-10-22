@@ -1,0 +1,19 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+<style>text { font-family: Arial; font-size: 12px; }</style>
+<rect x="60" y="172.252" width="80" height="167.748" fill="#1f77b4" />
+<text x="100.0" y="358" text-anchor="middle">LRU</text>
+<text x="100.0" y="166.252" text-anchor="middle" fill="#000">0.60</text>
+<rect x="180" y="160.548" width="80" height="179.452" fill="#1f77b4" />
+<text x="220.0" y="358" text-anchor="middle">LFU</text>
+<text x="220.0" y="154.548" text-anchor="middle" fill="#000">0.64</text>
+<rect x="300" y="172.7" width="80" height="167.3" fill="#1f77b4" />
+<text x="340.0" y="358" text-anchor="middle">Predictive</text>
+<text x="340.0" y="166.7" text-anchor="middle" fill="#000">0.60</text>
+<rect x="100.0" y="107.46240378922428" width="80" height="232.53759621077572" fill="#ff7f0e" opacity="0.8" />
+<text x="140.0" y="101.46240378922428" text-anchor="middle" fill="#000">35.1 ms</text>
+<rect x="220.0" y="128.25103611604493" width="80" height="211.74896388395507" fill="#ff7f0e" opacity="0.8" />
+<text x="260.0" y="122.25103611604493" text-anchor="middle" fill="#000">31.9 ms</text>
+<rect x="340.0" y="106.66666666666666" width="80" height="233.33333333333334" fill="#ff7f0e" opacity="0.8" />
+<text x="380.0" y="100.66666666666666" text-anchor="middle" fill="#000">35.2 ms</text>
+<text x="400.0" y="20" text-anchor="middle" font-size="16">Cache policy comparison — hit rate (blue) and avg latency (orange)</text>
+</svg>
